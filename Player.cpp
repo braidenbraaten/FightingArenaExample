@@ -4,7 +4,10 @@
 
 Player::Player()
 {
+
+	
 	//hasChosen = new bool;
+	
 }
 
 
@@ -63,4 +66,14 @@ void Player::WeaponSelection()
 
 	wrongAnswer = true;
 
+}
+
+int Player::Attack()
+{
+	return m_damage;
+}
+
+int Player::Defend()
+{
+	return m_shield;
 }

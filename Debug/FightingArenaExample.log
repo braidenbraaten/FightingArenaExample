@@ -1,10 +1,20 @@
-﻿Build started 7/25/2017 11:15:19 PM.
+﻿Build started 7/27/2017 12:14:35 AM.
      1>Project "C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\FightingArenaExample\FightingArenaExample.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Weapon.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Arena.cpp Enemy.cpp Human.cpp Player.cpp Weapon.cpp main.cpp
          Weapon.cpp
+         Human.cpp
+         Enemy.cpp
+     1>c:\users\overlee powered\documents\visual studio 2015\projects\fightingarenaexample\fightingarenaexample\enemy.cpp(53): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
+         Player.cpp
+         Arena.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\Debug\FightingArenaExample.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\Debug\FightingArenaExample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\Debug\FightingArenaExample.lib" /MACHINE:X86 Debug\Enemy.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\Debug\FightingArenaExample.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\Debug\FightingArenaExample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Overlee Powered\Documents\Visual Studio 2015\Projects\FightingArenaExample\Debug\FightingArenaExample.lib" /MACHINE:X86 Debug\Arena.obj
+         Debug\Enemy.obj
          Debug\Human.obj
          Debug\main.obj
          Debug\Player.obj
@@ -14,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.01
+Time Elapsed 00:00:02.96

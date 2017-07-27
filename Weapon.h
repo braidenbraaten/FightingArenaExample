@@ -20,11 +20,12 @@
 	};
 
 
-
+	
 class Weapon
 {
 
 private:
+	
 	char response;
 	bool hasDecided = false;
 
@@ -62,6 +63,7 @@ public:
 	void reload();
 
 	 Weapon();
+	 
 	~Weapon();
 };
 

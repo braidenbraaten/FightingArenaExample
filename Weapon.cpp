@@ -145,17 +145,20 @@ void Weapon::PistolMenu()
 		case 'm':
 		case 'M':
 			switchWeapons(pistolType::MAGNUM);
+			m_damage = 1;
 			hasDecided = true;
 			break;
 		case '9':
 
 			switchWeapons(pistolType::M9);
+			m_damage = 2;
 			hasDecided = true;
 			break;
 		case 'd':
 		case 'D':
 
 			switchWeapons(pistolType::DESERT_EAGLE);
+			m_damage = 3;
 			hasDecided = true;
 			break;
 
@@ -384,6 +387,7 @@ Weapon::Weapon()
 	m_currWeaponType = WeaponType::NO_WEAPON;
 	//m_currWeaponName = "No Weapon";
 }
+
 
 
 Weapon::~Weapon()
